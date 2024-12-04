@@ -1,0 +1,164 @@
+@media (max-width: 320px) {
+  .main {
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .main-block {
+    p {
+      font-size: clamp(1rem, 0.932rem + 0.34vw, 1.25rem);
+      width: 350px;
+      line-height: 30px;
+      text-align: center;
+    }
+  }
+  .main-text {
+  }
+  .main-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .burger-menu {
+    display: flex;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #image {
+    display: none;
+  }
+  .main-block {
+    h1 {
+      width: 205px;
+      text-align: center;
+    }
+  }
+  .main-block {
+    gap: 20px;
+  }
+  .main-btn {
+    gap: 15px;
+  }
+  .main-btn button {
+    padding: 10px 20px;
+  }
+  .main-text {
+  }
+  .imageSuper .img {
+    margin-bottom: 30px;
+    max-width: 300px;
+    width: 90%;
+  }
+  .main-text {
+    gap: 43px;
+    text-align: center;
+  }
+  .meta {
+    display: flex;
+    flex-direction: column;
+  }
+  .Img {
+    max-width: 300px;
+    width: 90%;
+  }
+  .meta-text p {
+    width: 279px;
+  }
+  .meta {
+    gap: 2rem;
+  }
+  .meta-text button {
+    padding: 10px 15px;
+  }
+  .page-top {
+    p {
+      width: 287px;
+      line-height: 23px;
+    }
+  }
+  .page-top {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    position: relative;
+  }
+  .page-str {
+    display: flex;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 20px;
+  }
+  .page-block img {
+    max-width: 300px;
+    width: 100%;
+  }
+  .page-box {
+    p {
+      width: 263px;
+    }
+  }
+  .page-block-1 {
+    display: none;
+  }
+  .row {
+    display: none;
+  }
+  #meta {
+    padding-block: 0px;
+  }
+  #main {
+    padding-block: 50px;
+  }
+  .page {
+    padding-block: 30px;
+    gap: 25px;
+  }
+  #row {
+    padding-block: 20px;
+  }
+  .row-top {
+    padding-block: 20px;
+    p {
+      width: 276px;
+      line-height: 20px;
+    }
+  }
+  .row-top {
+    display: flex;
+    align-items: start;
+    text-align: start;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .row-img {
+    display: flex;
+  }
+  .footer-block .box {
+    p {
+      width: 275px;
+    }
+  }
+  .footer-block {
+    display: flex;
+    flex-direction: column;
+  }
+  .box-1 {
+    gap: 48px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .box-2 {
+    a {
+      width: 273px;
+    }
+  }
+  #footer {
+    padding-block: 17px;
+  }
+}
