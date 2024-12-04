@@ -307,13 +307,13 @@ span {
     width: 210px;
   }
   .row-image {
-    max-width: 300px;
+    max-width: 400px;
     width: 100%;
   }
   span {
     position: absolute;
-    left: 212px;
-    bottom: 272px;
+    left: 235px;
+    bottom: 291px;
     font-size: 60px;
     color: #fff;
   }
